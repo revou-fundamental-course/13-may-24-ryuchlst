@@ -1,0 +1,107 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>
+            Luas Segitiga
+        </title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Selamat Datang di Mini Project Kalkulator</h1>
+                <p>Hai Sobat, Berikut ini adalah sebuah Kalkulator Sederhana yang berfungsi untuk menghitung nilai keliling dan luas bangun datar </p>
+        </header>
+    
+        <section>
+            <div class="section-content">
+                <h3>Segitiga</h3>
+                <a href="#keliling-segitiga" class="switch-keliling">switch ke keliling </a>
+                <!-- <button type="button" id="switch-keliling" class="switch-keliling"><u>Switch ke Keliling Segitiga</u></button>
+            </div> -->
+            </div>
+        </section>
+            
+            <section>
+                <div class="section-content">
+                    <h2>Luas Segitiga</h2>
+                </div>
+
+                <div class="formula-img">
+                    <img 
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTc6ZtcVio6t7GHsz9ZO_pYKo0OV9qDpT10vUnTlKTvizws1aGhbB5v8kYawQ5-Zlb_LM&usqp=CAU" alt="gambar segitiga">
+                </div>
+
+                <p>Rumus Luas Segitiga Yaitu :</p> </br>
+                <div class="section-content-rumus">
+                    <p><b> L = 1/2 x a x t </b></p>
+                </div>
+            
+            <div class="keterangan">
+                <p>Keterangan :<p>                
+                <li>L : Luas Segitiga</li>
+                <li>a : Panjang Alas Segitiga</li>
+                <li>t : Tinggi Segitiga</li>
+            </div>
+        </section>
+            <hr/>
+
+            <section>
+                <h3>Hitung Luas Segitiga</h3>
+
+                <div class="input-form">
+                    <label for="alas-segitiga"><b> Alas : </b></label> </br>
+                    <input type="input-alas" id="input-alas" nama="alas" placeholder="Masukkan Panjang Alas Segitiga"> </br></br>
+                    <label for="tinggi-segitiga"><b> Tinggi : </b></label> </br>
+                    <input type="input-tinggi" id="input-tinggi" nama="tinggi" placeholder="Masukkan Tinggi Segitiga"> 
+                </div>
+
+                <p id="rumus-luas-segitiga">L = 1/2 x a x t </p>
+                <p id="hasilLuas"> L = 1/2 x  ....  x  ..... </p>
+
+                <div class="btn-group">
+                    <button type="button" class="btn-hitung"> Hitung </button>
+                    <button type="reset" class="btn-reset"> Reset </button>
+                </div>
+            </section>
+
+        <!-- Keliling Segitiga -->
+        <section id="keliling-segitiga" class="keliling-segitiga">
+            <div class="section-content">
+                <h2>Keliling Segitiga</h2>
+                <a href="#luas-segitiga" class="luas-segitiga"></a>
+            </div>
+                <div class="formula-img">
+                    <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTc6ZtcVio6t7GHsz9ZO_pYKo0OV9qDpT10vUnTlKTvizws1aGhbB5v8kYawQ5-Zlb_LM&usqp=CAU">
+                </div>
+        </section>
+            <section>
+                <p>Rumus Keliling Segitiga yaitu :</p>
+                <div class="section-content-rumus"> 
+                    <p><b> K=S1 + S2 + S3 </b></p>
+                </div>
+                    <div class="keterangan">
+                        <p>Dimana :</p>
+                        <li>K = Keliling</li>
+                        <li>S1 = Sisi A </li>
+                        <li>S2 = Sisi B </li>
+                        <li>S3 = Sisi C </li>
+                    </div>    
+                    <hr>
+                        <section>
+                            <h3>Hitung Keliling Segitiga</h3>
+                        </section>
+
+                        <div class="input-group">
+                            <input type="text" id="input-sisiA" nama="sisi-a" placeholder="Masukkan Sisi A"> </br></br>
+                            <input type="text" id="input-sisiB" nama="sisi-b" placeholder="Masukkan Sisi B"> </br></br>
+                            <input type="text" id="input-sisiC" nama="sisi-c" placeholder="Masukkan Sisi C"> </br></br>
+                        </div>
+            </section>                
+            <div class="btn-group">
+                <button type="button" class="btn-hitung" onclick="hasilLuas()"> Hitung </button>
+                <button type="reset" class="btn-reset"> Reset </button>
+            </div>
+        <script src="js/script.js"> </script>
+    </body>
+</html>
