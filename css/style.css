@@ -50,7 +50,7 @@ header {
 }
 
 .keterangan {
-    font-size: 15px;
+    font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-bottom: 30px;
 }
@@ -71,10 +71,10 @@ p{
 }
 
 .input-form .input-group input {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     width: 100%;
-    background-color: rgb(250, 224, 77);
+    background-color: bisque;
     border-radius: 5px;
     font-family: system-ui;
 }
@@ -83,7 +83,7 @@ p{
     margin-top: 35px;
     margin-bottom: 55px;
     font-size: 18px;
-    font-family: cursive;
+    font-family: fangsong;
 }
 
 .btn-group {
@@ -92,13 +92,13 @@ p{
 }
 
 .btn-hitung, .btn-reset, .switch-keliling {
-    padding: 15px 25px;
+    padding: 25px 45px;
     border: none;
     border-radius: 5px;
     margin: 10px;
     cursor: pointer;
-    font-family: cursive;
-    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
 }
 
 .btn-hitung:hover {
@@ -112,7 +112,7 @@ p{
 }
 
 .btn-hitung{
-    background-color: brown;
+    background-color: orangered;
     color: bisque;
 }
 
